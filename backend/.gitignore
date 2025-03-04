@@ -1,0 +1,59 @@
+# Virtual Environment
+venv/
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+
+# Alembic versions (if you want to track migrations)
+# alembic/versions/*
+# !alembic/versions/.gitkeep
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage.xml
+*.cover
+
+# Temporary files
+*.bak
+*.tmp
+*~
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development configuration
+config.local.yaml
+*.local.yaml
+*.local.yml
